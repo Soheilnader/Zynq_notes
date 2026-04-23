@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {2}PL Only}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Building a 5-bit Counter Project with LEDs}{1}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Creating the Project}{1}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Adding the Code and Related Sources to the Project}{3}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}Downloading onto the Hardware}{8}{}%
+\contentsline {subsection}{\numberline {2.2}MicroBlaze Beside a Custom Hardware}{11}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Adding Custom Hardware}{13}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Program}{27}{}%
+\contentsline {paragraph}{Option 1: Programming the Hardware in Vivado}{32}{}%
+\contentsline {paragraph}{Option 2: Using Only SDK}{33}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}More Complex}{35}{}%
+\contentsline {subsection}{\numberline {2.3}MicroBlaze and GPIO}{41}{}%
+\contentsline {section}{\numberline {3}PS Only}{46}{}%
+\contentsline {section}{\numberline {4}PL - PS}{46}{}%
+\contentsline {section}{\numberline {5}Others}{46}{}%
+\contentsline {subsection}{\numberline {5.1}Introduction to the Xilinx System Debugger (XSDB) Tool}{46}{}%
+\contentsline {subsection}{\numberline {5.2}ILA (Integrated Logic Analyzer) -- Native}{48}{}%

@@ -1,0 +1,1428 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.8)  23 APR 2026 14:44
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
+(d:/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(d:/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(d:/texlive/2025/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(d:/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count283
+\c@Blindtext=\count284
+\c@blind@countparstart=\count285
+\blind@countxx=\count286
+\blindtext@numBlindtext=\count287
+\blind@countyy=\count288
+\c@blindlist=\count289
+\c@blindlistlevel=\count290
+\c@blindlist@level=\count291
+\blind@listitem=\count292
+\c@blind@listcount=\count293
+\c@blind@levelcount=\count294
+\blind@mathformula=\count295
+\blind@Mathformula=\count296
+\c@blind@randomcount=\count297
+\c@blind@randommax=\count298
+\c@blind@pangramcount=\count299
+\c@blind@pangrammax=\count300
+)
+(d:/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen149
+\ttl@minus=\dimen150
+\ttl@toksa=\toks17
+\titlewidth=\dimen151
+\titlewidthlast=\dimen152
+\titlewidthfirst=\dimen153
+)
+(d:/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(d:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(d:/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(d:/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(d:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(d:/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
+)
+(d:/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count301
+\lst@gtempboxa=\box54
+\lst@token=\toks19
+\lst@length=\count302
+\lst@currlwidth=\dimen156
+\lst@column=\count303
+\lst@pos=\count304
+\lst@lostspace=\dimen157
+\lst@width=\dimen158
+\lst@newlines=\count305
+\lst@lineno=\count306
+\lst@maxwidth=\dimen159
+
+(d:/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(d:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count307
+\lst@skipnumbers=\count308
+\lst@framebox=\box55
+)
+(d:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+==> First Aid for listings.sty applied!
+(d:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(d:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(d:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(d:/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count309
+\float@exts=\toks20
+\float@box=\box56
+\@float@everytoks=\toks21
+\@floatcapt=\box57
+)
+(d:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen160
+\ar@mcellbox=\box58
+\extrarowheight=\dimen161
+\NC@list=\toks22
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box59
+)
+(d:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+(d:/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(d:/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen162
+))
+(d:/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen163
+)
+(d:/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count310
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count311
+\leftroot@=\count312
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count313
+\DOTSCASE@=\count314
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen164
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count315
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count316
+\dotsspace@=\muskip17
+\c@parentequation=\count317
+\dspbrk@lvl=\count318
+\tag@help=\toks24
+\row@=\count319
+\column@=\count320
+\maxfields@=\count321
+\andhelp@=\toks25
+\eqnshift@=\dimen165
+\alignsep@=\dimen166
+\tagshift@=\dimen167
+\tagwidth@=\dimen168
+\totwidth@=\dimen169
+\lineht@=\dimen170
+\@envbody=\toks26
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(d:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(d:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(d:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen171
+\pgfutil@tempdimb=\dimen172
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box62
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(d:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(d:/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
+de.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen173
+\pgf@y=\dimen174
+\pgf@xa=\dimen175
+\pgf@ya=\dimen176
+\pgf@xb=\dimen177
+\pgf@yb=\dimen178
+\pgf@xc=\dimen179
+\pgf@yc=\dimen180
+\pgf@xd=\dimen181
+\pgf@yd=\dimen182
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count322
+\c@pgf@countb=\count323
+\c@pgf@countc=\count324
+\c@pgf@countd=\count325
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count326
+ (d:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count327
+\pgfsyssoftpath@bigbuffer@items=\count328
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen183
+\pgfmath@count=\count329
+\pgfmath@box=\box63
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count330
+))
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen184
+\pgf@picmaxx=\dimen185
+\pgf@picminy=\dimen186
+\pgf@picmaxy=\dimen187
+\pgf@pathminx=\dimen188
+\pgf@pathmaxx=\dimen189
+\pgf@pathminy=\dimen190
+\pgf@pathmaxy=\dimen191
+\pgf@xx=\dimen192
+\pgf@xy=\dimen193
+\pgf@yx=\dimen194
+\pgf@yy=\dimen195
+\pgf@zx=\dimen196
+\pgf@zy=\dimen197
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen198
+\pgf@path@lasty=\dimen199
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen256
+\pgf@shorten@start@additional=\dimen257
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count331
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen258
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen259
+\pgf@pt@y=\dimen260
+\pgf@pt@temp=\dimen261
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen262
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen263
+\pgf@sys@shading@range@num=\count332
+\pgf@shadingcount=\count333
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box67
+) (d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (d:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (d:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box68
+)
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(d:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen264
+\pgf@nodesepend=\dimen265
+)
+(d:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+)) (d:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(d:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(d:/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen266
+\pgffor@skip=\dimen267
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+))
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count334
+\pgfplotmarksize=\dimen268
+)
+\tikz@lastx=\dimen269
+\tikz@lasty=\dimen270
+\tikz@lastxsaved=\dimen271
+\tikz@lastysaved=\dimen272
+\tikz@lastmovetox=\dimen273
+\tikz@lastmovetoy=\dimen274
+\tikzleveldistance=\dimen275
+\tikzsiblingdistance=\dimen276
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
+\tikztreelevel=\count335
+\tikznumberofchildren=\count336
+\tikznumberofcurrentchild=\count337
+\tikz@fig@count=\count338
+
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count339
+\pgfmatrixcurrentcolumn=\count340
+\pgf@matrix@numberofcolumns=\count341
+)
+\tikz@expandcount=\count342
+
+(d:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(d:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count343
+)
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+(d:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count344
+\scratchdimen=\dimen277
+\scratchbox=\box73
+\nofMPsegments=\count345
+\nofMParguments=\count346
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count347
+\MPscratchDim=\dimen278
+\MPnumerator=\count348
+\makeMPintoPDFobject=\count349
+\everyMPtoPDFconversion=\toks41
+) (d:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(d:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count350
+
+No file main.toc.
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+
+LaTeX Warning: Reference `fig:fig1' on page 1 undefined on input line 64.
+
+<images/fig1.jpg, id=4, 605.26125pt x 397.485pt>
+File: images/fig1.jpg Graphic file (type jpg)
+<use images/fig1.jpg>
+Package pdftex.def Info: images/fig1.jpg  used on input line 68.
+(pdftex.def)             Requested size: 172.5pt x 113.2844pt.
+
+LaTeX Warning: Reference `fig:fig2' on page 1 undefined on input line 73.
+
+<images/fig2.jpg, id=5, 353.82187pt x 278.54062pt>
+File: images/fig2.jpg Graphic file (type jpg)
+<use images/fig2.jpg>
+Package pdftex.def Info: images/fig2.jpg  used on input line 77.
+(pdftex.def)             Requested size: 172.5pt x 135.79756pt.
+[1
+
+{d:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/fig1.j
+pg>]
+
+LaTeX Warning: Reference `fig:fig3' on page 2 undefined on input line 82.
+
+<images/fig3.jpg, id=16, 427.5975pt x 376.40625pt>
+File: images/fig3.jpg Graphic file (type jpg)
+<use images/fig3.jpg>
+Package pdftex.def Info: images/fig3.jpg  used on input line 86.
+(pdftex.def)             Requested size: 172.5pt x 151.84636pt.
+
+LaTeX Warning: Reference `fig:hardware_selection' on page 2 undefined on input 
+line 91.
+
+<images/fig4.jpg, id=17, 537.50812pt x 374.90062pt>
+File: images/fig4.jpg Graphic file (type jpg)
+<use images/fig4.jpg>
+Package pdftex.def Info: images/fig4.jpg  used on input line 95.
+(pdftex.def)             Requested size: 172.5pt x 120.31387pt.
+[2 <./images/fig2.jpg> <./images/fig3.jpg>]
+
+LaTeX Warning: Reference `fig:finish_project_creation' on page 3 undefined on i
+nput line 100.
+
+<images/fig5.jpg, id=22, 456.95718pt x 347.04657pt>
+File: images/fig5.jpg Graphic file (type jpg)
+<use images/fig5.jpg>
+Package pdftex.def Info: images/fig5.jpg  used on input line 104.
+(pdftex.def)             Requested size: 172.5pt x 131.0053pt.
+
+LaTeX Warning: Reference `fig:sources_list' on page 3 undefined on input line 1
+11.
+
+<images/fig6.jpg, id=23, 660.21657pt x 448.67625pt>
+File: images/fig6.jpg Graphic file (type jpg)
+<use images/fig6.jpg>
+Package pdftex.def Info: images/fig6.jpg  used on input line 115.
+(pdftex.def)             Requested size: 172.5pt x 117.22815pt.
+[3 <./images/fig4.jpg> <./images/fig5.jpg>]
+
+LaTeX Warning: Reference `fig:create_new_source' on page 4 undefined on input l
+ine 120.
+
+<images/fig7.jpg, id=27, 658.71094pt x 468.24937pt>
+File: images/fig7.jpg Graphic file (type jpg)
+<use images/fig7.jpg>
+Package pdftex.def Info: images/fig7.jpg  used on input line 124.
+(pdftex.def)             Requested size: 172.5pt x 122.62077pt.
+
+LaTeX Warning: Reference `fig:source_name_language' on page 4 undefined on inpu
+t line 129.
+
+<images/fig8.jpg, id=28, 562.35094pt x 614.295pt>
+File: images/fig8.jpg Graphic file (type jpg)
+<use images/fig8.jpg>
+Package pdftex.def Info: images/fig8.jpg  used on input line 133.
+(pdftex.def)             Requested size: 172.5pt x 188.43294pt.
+[4 <./images/fig6.jpg> <./images/fig7.jpg>]
+
+LaTeX Warning: Reference `fig:define_module' on page 5 undefined on input line 
+138.
+
+<images/fig9.jpg, id=32, 458.46281pt x 374.90062pt>
+File: images/fig9.jpg Graphic file (type jpg)
+<use images/fig9.jpg>
+Package pdftex.def Info: images/fig9.jpg  used on input line 142.
+(pdftex.def)             Requested size: 172.5pt x 141.05646pt.
+(d:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(d:/texlive/2025/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+)
+(d:/texlive/2025/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+) [5 <./images/fig8.jpg> <./images/fig9.jpg>]
+
+LaTeX Warning: Reference `fig:create_constraint_file' on page 6 undefined on in
+put line 168.
+
+<images/fig10.jpg, id=38, 558.58687pt x 399.74344pt>
+File: images/fig10.jpg Graphic file (type jpg)
+<use images/fig10.jpg>
+Package pdftex.def Info: images/fig10.jpg  used on input line 173.
+(pdftex.def)             Requested size: 172.5pt x 123.4434pt.
+
+LaTeX Warning: Reference `fig:constraint_file_name' on page 6 undefined on inpu
+t line 178.
+
+<images/fig11.jpg, id=39, 542.025pt x 296.60812pt>
+File: images/fig11.jpg Graphic file (type jpg)
+<use images/fig11.jpg>
+Package pdftex.def Info: images/fig11.jpg  used on input line 182.
+(pdftex.def)             Requested size: 172.5pt x 94.39606pt.
+
+LaTeX Warning: Reference `fig:required_files_list' on page 6 undefined on input
+ line 187.
+
+<images/fig12.jpg, id=40, 408.02437pt x 353.06906pt>
+File: images/fig12.jpg Graphic file (type jpg)
+<use images/fig12.jpg>
+Package pdftex.def Info: images/fig12.jpg  used on input line 191.
+(pdftex.def)             Requested size: 172.5pt x 149.2685pt.
+[6 <./images/fig10.jpg> <./images/fig11.jpg>]
+<images/fig13.jpg, id=44, 439.6425pt x 151.3153pt>
+File: images/fig13.jpg Graphic file (type jpg)
+<use images/fig13.jpg>
+Package pdftex.def Info: images/fig13.jpg  used on input line 221.
+(pdftex.def)             Requested size: 172.5pt x 59.3706pt.
+ [7 <./images/fig12.jpg> <./images/fig13.jpg>]
+
+LaTeX Warning: Reference `fig:run_synthesis' on page 8 undefined on input line 
+232.
+
+<images/fig14.jpg, id=49, 237.13594pt x 108.405pt>
+File: images/fig14.jpg Graphic file (type jpg)
+<use images/fig14.jpg>
+Package pdftex.def Info: images/fig14.jpg  used on input line 236.
+(pdftex.def)             Requested size: 172.5pt x 78.8604pt.
+
+LaTeX Warning: Reference `fig:run_implementation' on page 8 undefined on input 
+line 241.
+
+<images/fig15.jpg, id=50, 207.02344pt x 201.75375pt>
+File: images/fig15.jpg Graphic file (type jpg)
+<use images/fig15.jpg>
+Package pdftex.def Info: images/fig15.jpg  used on input line 245.
+(pdftex.def)             Requested size: 172.5pt x 168.11436pt.
+
+LaTeX Warning: Reference `fig:generate_bitstream' on page 8 undefined on input 
+line 250.
+
+<images/fig16.jpg, id=51, 316.18124pt x 276.28218pt>
+File: images/fig16.jpg Graphic file (type jpg)
+<use images/fig16.jpg>
+Package pdftex.def Info: images/fig16.jpg  used on input line 254.
+(pdftex.def)             Requested size: 172.5pt x 150.7331pt.
+[8 <./images/fig14.jpg> <./images/fig15.jpg>]
+
+LaTeX Warning: Reference `fig:open_hardware_manager' on page 9 undefined on inp
+ut line 259.
+
+<images/fig17.jpg, id=55, 385.44pt x 274.02374pt>
+File: images/fig17.jpg Graphic file (type jpg)
+<use images/fig17.jpg>
+Package pdftex.def Info: images/fig17.jpg  used on input line 263.
+(pdftex.def)             Requested size: 172.5pt x 122.63635pt.
+
+LaTeX Warning: Reference `fig:recognized_device' on page 9 undefined on input l
+ine 268.
+
+<images/fig18.jpg, id=56, 375.65344pt x 311.66437pt>
+File: images/fig18.jpg Graphic file (type jpg)
+<use images/fig18.jpg>
+Package pdftex.def Info: images/fig18.jpg  used on input line 272.
+(pdftex.def)             Requested size: 172.5pt x 143.12006pt.
+[9 <./images/fig16.jpg> <./images/fig17.jpg>]
+
+LaTeX Warning: Reference `fig:program_device' on page 10 undefined on input lin
+e 277.
+
+<images/fig19.jpg, id=60, 435.87843pt x 279.29344pt>
+File: images/fig19.jpg Graphic file (type jpg)
+<use images/fig19.jpg>
+Package pdftex.def Info: images/fig19.jpg  used on input line 281.
+(pdftex.def)             Requested size: 172.5pt x 110.53064pt.
+
+LaTeX Warning: Reference `fig:counter_output' on page 10 undefined on input lin
+e 286.
+
+<images/fig20.jpg, id=61, 552.56438pt x 364.36125pt>
+File: images/fig20.jpg Graphic file (type jpg)
+<use images/fig20.jpg>
+Package pdftex.def Info: images/fig20.jpg  used on input line 290.
+(pdftex.def)             Requested size: 172.5pt x 113.74585pt.
+
+LaTeX Warning: Reference `fig:fig26' on page 10 undefined on input line 298.
+
+<images/fig26.jpg, id=62, 183.68625pt x 133.24782pt>
+File: images/fig26.jpg Graphic file (type jpg)
+<use images/fig26.jpg>
+Package pdftex.def Info: images/fig26.jpg  used on input line 302.
+(pdftex.def)             Requested size: 172.5pt x 125.14113pt.
+[10 <./images/fig18.jpg> <./images/fig19.jpg> <./images/fig20.jpg>]
+
+LaTeX Warning: Reference `fig:fig27' on page 11 undefined on input line 307.
+
+<images/fig27.jpg, id=66, 268.75406pt x 191.9672pt>
+File: images/fig27.jpg Graphic file (type jpg)
+<use images/fig27.jpg>
+Package pdftex.def Info: images/fig27.jpg  used on input line 311.
+(pdftex.def)             Requested size: 172.5pt x 123.21301pt.
+
+LaTeX Warning: Reference `fig:fig28' on page 11 undefined on input line 316.
+
+<images/fig28.jpg, id=67, 955.31906pt x 475.7775pt>
+File: images/fig28.jpg Graphic file (type jpg)
+<use images/fig28.jpg>
+Package pdftex.def Info: images/fig28.jpg  used on input line 320.
+(pdftex.def)             Requested size: 172.5pt x 85.90486pt.
+[11 <./images/fig26.jpg> <./images/fig27.jpg>]
+
+LaTeX Warning: Reference `fig:fig29' on page 12 undefined on input line 325.
+
+<images/fig29.jpg, id=71, 649.67719pt x 480.29437pt>
+File: images/fig29.jpg Graphic file (type jpg)
+<use images/fig29.jpg>
+Package pdftex.def Info: images/fig29.jpg  used on input line 329.
+(pdftex.def)             Requested size: 172.5pt x 127.52657pt.
+
+LaTeX Warning: Reference `fig:fig30' on page 12 undefined on input line 334.
+
+<images/fig30.jpg, id=72, 956.82469pt x 472.76625pt>
+File: images/fig30.jpg Graphic file (type jpg)
+<use images/fig30.jpg>
+Package pdftex.def Info: images/fig30.jpg  used on input line 338.
+(pdftex.def)             Requested size: 172.5pt x 85.23131pt.
+
+LaTeX Warning: Reference `fig:fig31' on page 12 undefined on input line 343.
+
+<images/fig31.jpg, id=73, 648.92438pt x 408.77719pt>
+File: images/fig31.jpg Graphic file (type jpg)
+<use images/fig31.jpg>
+Package pdftex.def Info: images/fig31.jpg  used on input line 347.
+(pdftex.def)             Requested size: 172.5pt x 108.66225pt.
+[12 <./images/fig28.jpg> <./images/fig29.jpg> <./images/fig30.jpg>]
+
+LaTeX Warning: Reference `fig:fig32' on page 13 undefined on input line 352.
+
+<images/fig32.jpg, id=77, 954.56625pt x 473.51906pt>
+File: images/fig32.jpg Graphic file (type jpg)
+<use images/fig32.jpg>
+Package pdftex.def Info: images/fig32.jpg  used on input line 356.
+(pdftex.def)             Requested size: 172.5pt x 85.56934pt.
+
+LaTeX Warning: Reference `fig:fig33' on page 13 undefined on input line 363.
+
+<images/fig33.jpg, id=78, 383.18156pt x 118.19156pt>
+File: images/fig33.jpg Graphic file (type jpg)
+<use images/fig33.jpg>
+Package pdftex.def Info: images/fig33.jpg  used on input line 367.
+(pdftex.def)             Requested size: 172.5pt x 53.20735pt.
+
+LaTeX Warning: Reference `fig:fig34' on page 13 undefined on input line 372.
+
+<images/fig34.jpg, id=79, 466.74374pt x 331.99031pt>
+File: images/fig34.jpg Graphic file (type jpg)
+<use images/fig34.jpg>
+Package pdftex.def Info: images/fig34.jpg  used on input line 376.
+(pdftex.def)             Requested size: 172.5pt x 122.69771pt.
+[13 <./images/fig31.jpg> <./images/fig32.jpg> <./images/fig33.jpg>]
+
+LaTeX Warning: Reference `fig:fig35' on page 14 undefined on input line 381.
+
+<images/fig35.jpg, id=84, 582.67688pt x 414.04688pt>
+File: images/fig35.jpg Graphic file (type jpg)
+<use images/fig35.jpg>
+Package pdftex.def Info: images/fig35.jpg  used on input line 385.
+(pdftex.def)             Requested size: 172.5pt x 122.57237pt.
+
+LaTeX Warning: Reference `fig:fig36' on page 14 undefined on input line 390.
+
+<images/fig36.jpg, id=85, 584.1825pt x 417.81094pt>
+File: images/fig36.jpg Graphic file (type jpg)
+<use images/fig36.jpg>
+Package pdftex.def Info: images/fig36.jpg  used on input line 394.
+(pdftex.def)             Requested size: 172.5pt x 123.37428pt.
+[14 <./images/fig34.jpg> <./images/fig35.jpg>]
+
+LaTeX Warning: Reference `fig:fig37' on page 15 undefined on input line 399.
+
+<images/fig37.jpg, id=89, 581.92406pt x 413.29407pt>
+File: images/fig37.jpg Graphic file (type jpg)
+<use images/fig37.jpg>
+Package pdftex.def Info: images/fig37.jpg  used on input line 403.
+(pdftex.def)             Requested size: 172.5pt x 122.50717pt.
+
+LaTeX Warning: Reference `fig:fig38' on page 15 undefined on input line 408.
+
+<images/fig38.jpg, id=90, 576.65437pt x 414.79968pt>
+File: images/fig38.jpg Graphic file (type jpg)
+<use images/fig38.jpg>
+Package pdftex.def Info: images/fig38.jpg  used on input line 412.
+(pdftex.def)             Requested size: 172.5pt x 124.0801pt.
+[15 <./images/fig36.jpg> <./images/fig37.jpg>]
+
+LaTeX Warning: Reference `fig:fig39' on page 16 undefined on input line 417.
+
+<images/fig39.jpg, id=94, 227.34938pt x 329.73187pt>
+File: images/fig39.jpg Graphic file (type jpg)
+<use images/fig39.jpg>
+Package pdftex.def Info: images/fig39.jpg  used on input line 421.
+(pdftex.def)             Requested size: 172.5pt x 250.18625pt.
+
+LaTeX Warning: Reference `fig:fig40' on page 16 undefined on input line 425.
+
+<images/fig40.jpg, id=95, 322.95656pt x 414.04688pt>
+File: images/fig40.jpg Graphic file (type jpg)
+<use images/fig40.jpg>
+Package pdftex.def Info: images/fig40.jpg  used on input line 429.
+(pdftex.def)             Requested size: 172.5pt x 221.14961pt.
+[16 <./images/fig38.jpg> <./images/fig39.jpg>]
+
+LaTeX Warning: Reference `fig:fig41' on page 17 undefined on input line 434.
+
+<images/fig41.jpg, id=99, 265.74281pt x 271.0125pt>
+File: images/fig41.jpg Graphic file (type jpg)
+<use images/fig41.jpg>
+Package pdftex.def Info: images/fig41.jpg  used on input line 438.
+(pdftex.def)             Requested size: 172.5pt x 175.92445pt.
+
+LaTeX Warning: Reference `fig:fig42' on page 17 undefined on input line 443.
+
+[17 <./images/fig40.jpg> <./images/fig41.jpg>]
+
+LaTeX Warning: Reference `lst:lst1' on page 18 undefined on input line 445.
+
+<images/fig42.jpg, id=103, 336.50719pt x 310.15875pt>
+File: images/fig42.jpg Graphic file (type jpg)
+<use images/fig42.jpg>
+Package pdftex.def Info: images/fig42.jpg  used on input line 449.
+(pdftex.def)             Requested size: 172.5pt x 158.99287pt.
+
+LaTeX Warning: Reference `lst:lst2' on page 18 undefined on input line 461.
+
+[18 <./images/fig42.jpg>]
+
+LaTeX Warning: Reference `fig:fig42_1' on page 19 undefined on input line 483.
+
+<images/fig42_1.jpg, id=107, 654.94687pt x 473.51906pt>
+File: images/fig42_1.jpg Graphic file (type jpg)
+<use images/fig42_1.jpg>
+Package pdftex.def Info: images/fig42_1.jpg  used on input line 487.
+(pdftex.def)             Requested size: 172.5pt x 124.71606pt.
+
+LaTeX Warning: Reference `fig:fig42_2' on page 19 undefined on input line 492.
+
+<images/fig42_2.jpg, id=108, 328.97906pt x 140.02313pt>
+File: images/fig42_2.jpg Graphic file (type jpg)
+<use images/fig42_2.jpg>
+Package pdftex.def Info: images/fig42_2.jpg  used on input line 496.
+(pdftex.def)             Requested size: 172.5pt x 73.42136pt.
+<images/fig43.jpg, id=109, 300.3722pt x 101.62968pt>
+File: images/fig43.jpg Graphic file (type jpg)
+<use images/fig43.jpg>
+Package pdftex.def Info: images/fig43.jpg  used on input line 505.
+(pdftex.def)             Requested size: 172.5pt x 58.36682pt.
+[19 <./images/fig42_1.jpg> <./images/fig42_2.jpg>]
+<images/fig42_3.jpg, id=114, 709.90219pt x 203.25937pt>
+File: images/fig42_3.jpg Graphic file (type jpg)
+<use images/fig42_3.jpg>
+Package pdftex.def Info: images/fig42_3.jpg  used on input line 514.
+(pdftex.def)             Requested size: 172.5pt x 49.38803pt.
+
+
+LaTeX Warning: Reference `fig:fig42_4' on page 20 undefined on input line 519.
+
+<images/fig42_4.jpg, id=115, 294.34969pt x 398.23781pt>
+File: images/fig42_4.jpg Graphic file (type jpg)
+<use images/fig42_4.jpg>
+Package pdftex.def Info: images/fig42_4.jpg  used on input line 523.
+(pdftex.def)             Requested size: 172.5pt x 233.38441pt.
+
+LaTeX Warning: Reference `fig:fig44' on page 20 undefined on input line 528.
+
+<images/fig44.jpg, id=116, 641.39626pt x 400.49625pt>
+File: images/fig44.jpg Graphic file (type jpg)
+<use images/fig44.jpg>
+Package pdftex.def Info: images/fig44.jpg  used on input line 532.
+(pdftex.def)             Requested size: 172.5pt x 107.70766pt.
+[20 <./images/fig43.jpg> <./images/fig42_3.jpg> <./images/fig42_4.jpg>]
+
+LaTeX Warning: Reference `fig:fig44_5' on page 21 undefined on input line 537.
+
+<images/fig44_5.jpg, id=120, 953.06062pt x 472.76625pt>
+File: images/fig44_5.jpg Graphic file (type jpg)
+<use images/fig44_5.jpg>
+Package pdftex.def Info: images/fig44_5.jpg  used on input line 541.
+(pdftex.def)             Requested size: 241.49895pt x 119.79274pt.
+
+LaTeX Warning: Reference `fig:fig45' on page 21 undefined on input line 546.
+
+<images/fig45.jpg, id=121, 957.5775pt x 478.03593pt>
+File: images/fig45.jpg Graphic file (type jpg)
+<use images/fig45.jpg>
+Package pdftex.def Info: images/fig45.jpg  used on input line 550.
+(pdftex.def)             Requested size: 172.5pt x 86.1084pt.
+[21 <./images/fig44.jpg> <./images/fig44_5.jpg> <./images/fig45.jpg>]
+
+LaTeX Warning: Reference `fig:fig46' on page 22 undefined on input line 558.
+
+
+LaTeX Warning: Reference `fig:create_constraint_file' on page 22 undefined on i
+nput line 558.
+
+<images/fig46.jpg, id=125, 295.1025pt x 263.48438pt>
+File: images/fig46.jpg Graphic file (type jpg)
+<use images/fig46.jpg>
+Package pdftex.def Info: images/fig46.jpg  used on input line 562.
+(pdftex.def)             Requested size: 172.5pt x 154.01912pt.
+File: images/fig10.jpg Graphic file (type jpg)
+<use images/fig10.jpg>
+Package pdftex.def Info: images/fig10.jpg  used on input line 569.
+(pdftex.def)             Requested size: 172.5pt x 123.4434pt.
+
+LaTeX Warning: Reference `fig:constraint_file_name' on page 22 undefined on inp
+ut line 574.
+
+File: images/fig11.jpg Graphic file (type jpg)
+<use images/fig11.jpg>
+Package pdftex.def Info: images/fig11.jpg  used on input line 578.
+(pdftex.def)             Requested size: 172.5pt x 94.39606pt.
+[22 <./images/fig46.jpg>]
+
+LaTeX Warning: Reference `fig:required_files_list' on page 23 undefined on inpu
+t line 583.
+
+File: images/fig12.jpg Graphic file (type jpg)
+<use images/fig12.jpg>
+Package pdftex.def Info: images/fig12.jpg  used on input line 587.
+(pdftex.def)             Requested size: 172.5pt x 149.2685pt.
+
+LaTeX Warning: Reference `fig:fig47' on page 23 undefined on input line 601.
+
+<images/fig47.jpg, id=129, 300.3722pt x 213.04594pt>
+File: images/fig47.jpg Graphic file (type jpg)
+<use images/fig47.jpg>
+Package pdftex.def Info: images/fig47.jpg  used on input line 605.
+(pdftex.def)             Requested size: 172.5pt x 122.35417pt.
+[23]
+<images/fig48.jpg, id=133, 377.91188pt x 208.52907pt>
+File: images/fig48.jpg Graphic file (type jpg)
+<use images/fig48.jpg>
+Package pdftex.def Info: images/fig48.jpg  used on input line 612.
+(pdftex.def)             Requested size: 172.5pt x 95.18315pt.
+
+
+LaTeX Warning: Reference `fig:fig49' on page 24 undefined on input line 617.
+
+<images/fig49.jpg, id=134, 298.11375pt x 266.49562pt>
+File: images/fig49.jpg Graphic file (type jpg)
+<use images/fig49.jpg>
+Package pdftex.def Info: images/fig49.jpg  used on input line 621.
+(pdftex.def)             Requested size: 172.5pt x 154.20566pt.
+[24 <./images/fig47.jpg> <./images/fig48.jpg> <./images/fig49.jpg>]
+
+LaTeX Warning: Reference `fig:run_synthesis' on page 25 undefined on input line
+ 628.
+
+File: images/fig14.jpg Graphic file (type jpg)
+<use images/fig14.jpg>
+Package pdftex.def Info: images/fig14.jpg  used on input line 632.
+(pdftex.def)             Requested size: 172.5pt x 78.8604pt.
+
+LaTeX Warning: Reference `fig:run_implementation' on page 25 undefined on input
+ line 637.
+
+File: images/fig15.jpg Graphic file (type jpg)
+<use images/fig15.jpg>
+Package pdftex.def Info: images/fig15.jpg  used on input line 641.
+(pdftex.def)             Requested size: 172.5pt x 168.11436pt.
+
+LaTeX Warning: Reference `fig:generate_bitstream' on page 25 undefined on input
+ line 646.
+
+File: images/fig16.jpg Graphic file (type jpg)
+<use images/fig16.jpg>
+Package pdftex.def Info: images/fig16.jpg  used on input line 650.
+(pdftex.def)             Requested size: 172.5pt x 150.7331pt.
+[25]
+
+LaTeX Warning: Reference `fig:fig50' on page 26 undefined on input line 655.
+
+<images/fig50.jpg, id=142, 324.46219pt x 374.90062pt>
+File: images/fig50.jpg Graphic file (type jpg)
+<use images/fig50.jpg>
+Package pdftex.def Info: images/fig50.jpg  used on input line 659.
+(pdftex.def)             Requested size: 172.5pt x 199.31992pt.
+
+LaTeX Warning: Reference `fig:fig51' on page 26 undefined on input line 664.
+
+<images/fig51.jpg, id=143, 304.88907pt x 179.92218pt>
+File: images/fig51.jpg Graphic file (type jpg)
+<use images/fig51.jpg>
+Package pdftex.def Info: images/fig51.jpg  used on input line 668.
+(pdftex.def)             Requested size: 172.5pt x 101.79898pt.
+[26 <./images/fig50.jpg>]
+<images/fig52.jpg, id=147, 196.48407pt x 391.4625pt>
+File: images/fig52.jpg Graphic file (type jpg)
+<use images/fig52.jpg>
+Package pdftex.def Info: images/fig52.jpg  used on input line 679.
+(pdftex.def)             Requested size: 172.5pt x 343.69958pt.
+ [27 <./images/fig51.jpg> <./images/fig52.jpg>]
+<images/fig53.jpg, id=151, 462.22687pt x 107.65219pt>
+File: images/fig53.jpg Graphic file (type jpg)
+<use images/fig53.jpg>
+Package pdftex.def Info: images/fig53.jpg  used on input line 688.
+(pdftex.def)             Requested size: 172.5pt x 40.17563pt.
+
+
+LaTeX Warning: Reference `fig:fig54' on page 28 undefined on input line 693.
+
+<images/fig54.jpg, id=152, 384.6872pt x 499.11469pt>
+File: images/fig54.jpg Graphic file (type jpg)
+<use images/fig54.jpg>
+Package pdftex.def Info: images/fig54.jpg  used on input line 697.
+(pdftex.def)             Requested size: 172.5pt x 223.8151pt.
+<images/fig55.jpg, id=153, 384.6872pt x 499.11469pt>
+File: images/fig55.jpg Graphic file (type jpg)
+<use images/fig55.jpg>
+Package pdftex.def Info: images/fig55.jpg  used on input line 706.
+(pdftex.def)             Requested size: 172.5pt x 223.8151pt.
+[28 <./images/fig53.jpg> <./images/fig54.jpg>]
+<images/fig56.jpg, id=157, 423.83344pt x 255.95625pt>
+File: images/fig56.jpg Graphic file (type jpg)
+<use images/fig56.jpg>
+Package pdftex.def Info: images/fig56.jpg  used on input line 715.
+(pdftex.def)             Requested size: 172.5pt x 104.17334pt.
+<images/fig57.jpg, id=158, 384.6872pt x 383.18156pt>
+File: images/fig57.jpg Graphic file (type jpg)
+<use images/fig57.jpg>
+Package pdftex.def Info: images/fig57.jpg  used on input line 724.
+(pdftex.def)             Requested size: 172.5pt x 171.82788pt.
+ [29 <./images/fig55.jpg> <./images/fig56.jpg>]
+
+LaTeX Warning: Reference `fig:fig58' on page 30 undefined on input line 729.
+
+<images/fig58.jpg, id=162, 530.73282pt x 516.42938pt>
+File: images/fig58.jpg Graphic file (type jpg)
+<use images/fig58.jpg>
+Package pdftex.def Info: images/fig58.jpg  used on input line 733.
+(pdftex.def)             Requested size: 172.5pt x 167.85332pt.
+
+LaTeX Warning: Reference `lst:c_example' on page 30 undefined on input line 739
+.
+
+(d:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(d:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+) [30 <./images/fig57.jpg> <./images/fig58.jpg>]
+Overfull \hbox (55.08423pt too wide) in paragraph at lines 768--769
+[]\OT1/cmr/m/n/10 The ad-dress off-sets are im-por-tant here. The base ad-dress
+ \OT1/cmtt/m/n/10 XPAR[]MYIP[]0[]S00[]AXI[]BASEADDR
+ []
+
+
+LaTeX Warning: Reference `fig:fig59' on page 31 undefined on input line 772.
+
+<images/fig59.jpg, id=166, 182.18062pt x 212.29312pt>
+File: images/fig59.jpg Graphic file (type jpg)
+<use images/fig59.jpg>
+Package pdftex.def Info: images/fig59.jpg  used on input line 776.
+(pdftex.def)             Requested size: 172.5pt x 201.01973pt.
+[31]
+
+LaTeX Warning: Reference `fig:fig66' on page 32 undefined on input line 787.
+
+<images/fig66.jpg, id=171, 469.00218pt x 484.05844pt>
+File: images/fig66.jpg Graphic file (type jpg)
+<use images/fig66.jpg>
+Package pdftex.def Info: images/fig66.jpg  used on input line 791.
+(pdftex.def)             Requested size: 172.5pt x 178.0352pt.
+[32 <./images/fig59.jpg>]
+
+LaTeX Warning: Reference `fig:fig61' on page 33 undefined on input line 798.
+
+<images/fig61.jpg, id=175, 591.71063pt x 295.85532pt>
+File: images/fig61.jpg Graphic file (type jpg)
+<use images/fig61.jpg>
+Package pdftex.def Info: images/fig61.jpg  used on input line 802.
+(pdftex.def)             Requested size: 172.5pt x 86.24727pt.
+
+LaTeX Warning: Reference `fig:fig62' on page 33 undefined on input line 807.
+
+<images/fig62.jpg, id=176, 822.07124pt x 523.20468pt>
+File: images/fig62.jpg Graphic file (type jpg)
+<use images/fig62.jpg>
+Package pdftex.def Info: images/fig62.jpg  used on input line 811.
+(pdftex.def)             Requested size: 172.5pt x 109.78041pt.
+[33 <./images/fig66.jpg> <./images/fig61.jpg>]
+
+LaTeX Warning: Reference `fig:fig63' on page 34 undefined on input line 816.
+
+<images/fig63.jpg, id=180, 389.95688pt x 115.93312pt>
+File: images/fig63.jpg Graphic file (type jpg)
+<use images/fig63.jpg>
+Package pdftex.def Info: images/fig63.jpg  used on input line 820.
+(pdftex.def)             Requested size: 172.5pt x 51.28314pt.
+<images/fig64.jpg, id=181, 389.95688pt x 165.61874pt>
+File: images/fig64.jpg Graphic file (type jpg)
+<use images/fig64.jpg>
+Package pdftex.def Info: images/fig64.jpg  used on input line 829.
+(pdftex.def)             Requested size: 172.5pt x 73.26164pt.
+
+LaTeX Warning: Reference `fig:fig65' on page 34 undefined on input line 834.
+
+<images/fig65.jpg, id=182, 760.34062pt x 572.89032pt>
+File: images/fig65.jpg Graphic file (type jpg)
+<use images/fig65.jpg>
+Package pdftex.def Info: images/fig65.jpg  used on input line 838.
+(pdftex.def)             Requested size: 172.5pt x 129.96997pt.
+[34 <./images/fig62.jpg> <./images/fig63.jpg> <./images/fig64.jpg>]
+
+LaTeX Warning: Reference `tab:counter_register_map' on page 35 undefined on inp
+ut line 847.
+
+
+Overfull \hbox (52.2278pt too wide) in paragraph at lines 852--881
+ [][] 
+ []
+
+[35 <./images/fig65.jpg>]
+
+LaTeX Warning: Reference `lst:counter_port' on page 36 undefined on input line 
+886.
+
+
+LaTeX Warning: Reference `lst:counter_read_logic' on page 36 undefined on input
+ line 896.
+
+
+LaTeX Warning: Reference `lst:counter_logic' on page 36 undefined on input line
+ 911.
+
+[36]
+
+LaTeX Warning: Reference `lst:mycounter_top_port' on page 37 undefined on input
+ line 960.
+
+[37]
+
+LaTeX Warning: Reference `lst:mycounter_top_inst' on page 38 undefined on input
+ line 970.
+
+
+LaTeX Warning: Reference `fig:fig67' on page 38 undefined on input line 980.
+
+<images/fig67.jpg, id=196, 935.74594pt x 353.06906pt>
+File: images/fig67.jpg Graphic file (type jpg)
+<use images/fig67.jpg>
+Package pdftex.def Info: images/fig67.jpg  used on input line 984.
+(pdftex.def)             Requested size: 276.00105pt x 104.1383pt.
+
+LaTeX Warning: Reference `fig:fig67' on page 38 undefined on input line 989.
+
+
+LaTeX Warning: Reference `lst:mycounter_xdc' on page 38 undefined on input line
+ 989.
+
+[38 <./images/fig67.jpg>]
+
+LaTeX Warning: Reference `lst:mycounter_c_example' on page 39 undefined on inpu
+t line 1014.
+
+[39] [40]
+
+LaTeX Warning: Reference `fig:fig68' on page 41 undefined on input line 1080.
+
+<images/fig68.jpg, id=206, 227.34938pt x 182.93344pt>
+File: images/fig68.jpg Graphic file (type jpg)
+<use images/fig68.jpg>
+Package pdftex.def Info: images/fig68.jpg  used on input line 1084.
+(pdftex.def)             Requested size: 172.5pt x 138.80196pt.
+
+LaTeX Warning: Reference `fig:fig69' on page 41 undefined on input line 1089.
+
+<images/fig69.jpg, id=207, 683.55376pt x 513.41812pt>
+File: images/fig69.jpg Graphic file (type jpg)
+<use images/fig69.jpg>
+Package pdftex.def Info: images/fig69.jpg  used on input line 1093.
+(pdftex.def)             Requested size: 172.5pt x 129.56065pt.
+[41 <./images/fig68.jpg>]
+
+LaTeX Warning: Reference `fig:fig70' on page 42 undefined on input line 1098.
+
+<images/fig70.jpg, id=214, 692.5875pt x 283.0575pt>
+File: images/fig70.jpg Graphic file (type jpg)
+<use images/fig70.jpg>
+Package pdftex.def Info: images/fig70.jpg  used on input line 1102.
+(pdftex.def)             Requested size: 172.5pt x 70.50073pt.
+
+LaTeX Warning: Reference `fig:fig71' on page 42 undefined on input line 1107.
+
+<images/fig71.jpg, id=215, 933.4875pt x 331.99031pt>
+File: images/fig71.jpg Graphic file (type jpg)
+<use images/fig71.jpg>
+Package pdftex.def Info: images/fig71.jpg  used on input line 1111.
+(pdftex.def)             Requested size: 172.5pt x 61.34631pt.
+
+LaTeX Warning: Reference `fig:fig72' on page 42 undefined on input line 1116.
+
+
+LaTeX Warning: Reference `lst:gpio_xdc' on page 42 undefined on input line 1116
+.
+
+<images/fig72.jpg, id=216, 643.6547pt x 144.54pt>
+File: images/fig72.jpg Graphic file (type jpg)
+<use images/fig72.jpg>
+Package pdftex.def Info: images/fig72.jpg  used on input line 1120.
+(pdftex.def)             Requested size: 172.5pt x 38.7374pt.
+[42 <./images/fig69.jpg> <./images/fig70.jpg> <./images/fig71.jpg> <./images/fi
+g72.jpg>]
+
+LaTeX Warning: Reference `lst:gpio_c_example' on page 43 undefined on input lin
+e 1151.
+
+[43]
+
+LaTeX Warning: Reference `lst:gpio_c_example' on page 44 undefined on input lin
+e 1190.
+
+[44]
+Overfull \hbox (41.66856pt too wide) in paragraph at lines 1211--1216
+[]\OT1/cmr/m/n/10 In sum-mary, the I/O-related func-tions used in this pro-gram
+ are: \OT1/cmtt/m/n/10 XGpio[]Initialize()\OT1/cmr/m/n/10 ,
+ []
+
+
+Overfull \hbox (10.41261pt too wide) in paragraph at lines 1211--1216
+\OT1/cmr/m/n/10 reads the cur-rent in-put val-ues from a GPIO chan-nel; and \OT
+1/cmtt/m/n/10 XGpio[]DiscreteWrite()\OT1/cmr/m/n/10 ,
+ []
+
+[45]
+<images/fig21.jpg, id=230, 538.26094pt x 146.79843pt>
+File: images/fig21.jpg Graphic file (type jpg)
+<use images/fig21.jpg>
+Package pdftex.def Info: images/fig21.jpg  used on input line 1231.
+(pdftex.def)             Requested size: 172.5pt x 47.04588pt.
+<images/fig22.jpg, id=231, 536.0025pt x 191.9672pt>
+File: images/fig22.jpg Graphic file (type jpg)
+<use images/fig22.jpg>
+Package pdftex.def Info: images/fig22.jpg  used on input line 1240.
+(pdftex.def)             Requested size: 172.5pt x 61.77933pt.
+<images/fig23.jpg, id=232, 539.01375pt x 424.58624pt>
+File: images/fig23.jpg Graphic file (type jpg)
+<use images/fig23.jpg>
+Package pdftex.def Info: images/fig23.jpg  used on input line 1249.
+(pdftex.def)             Requested size: 172.5pt x 135.87685pt.
+ [46 <./images/fig21.jpg> <./images/fig22.jpg>]
+<images/fig24.jpg, id=236, 539.01375pt x 156.585pt>
+File: images/fig24.jpg Graphic file (type jpg)
+<use images/fig24.jpg>
+Package pdftex.def Info: images/fig24.jpg  used on input line 1258.
+(pdftex.def)             Requested size: 172.5pt x 50.11061pt.
+
+(d:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(d:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+<images/fig25.jpg, id=237, 536.75531pt x 280.79906pt>
+File: images/fig25.jpg Graphic file (type jpg)
+<use images/fig25.jpg>
+Package pdftex.def Info: images/fig25.jpg  used on input line 1285.
+(pdftex.def)             Requested size: 172.5pt x 90.23886pt.
+ [47 <./images/fig23.jpg> <./images/fig24.jpg>] [48 <./images/fig25.jpg>]
+
+LaTeX Warning: Reference `fig:fig74' on page 49 undefined on input line 1328.
+
+<images/fig74.jpg, id=244, 591.71063pt x 480.29437pt>
+File: images/fig74.jpg Graphic file (type jpg)
+<use images/fig74.jpg>
+Package pdftex.def Info: images/fig74.jpg  used on input line 1332.
+(pdftex.def)             Requested size: 172.5pt x 140.01466pt.
+
+LaTeX Warning: Reference `fig:fig75' on page 49 undefined on input line 1337.
+
+<images/fig75.jpg, id=245, 681.29532pt x 618.05907pt>
+File: images/fig75.jpg Graphic file (type jpg)
+<use images/fig75.jpg>
+Package pdftex.def Info: images/fig75.jpg  used on input line 1341.
+(pdftex.def)             Requested size: 172.5pt x 156.48543pt.
+
+LaTeX Warning: Reference `fig:fig76' on page 49 undefined on input line 1346.
+
+[49 <./images/fig74.jpg> <./images/fig75.jpg>]
+<images/fig76.jpg, id=250, 622.57594pt x 432.11438pt>
+File: images/fig76.jpg Graphic file (type jpg)
+<use images/fig76.jpg>
+Package pdftex.def Info: images/fig76.jpg  used on input line 1350.
+(pdftex.def)             Requested size: 172.5pt x 119.72523pt.
+
+
+LaTeX Warning: Reference `fig:fig77' on page 50 undefined on input line 1355.
+
+<images/fig77.jpg, id=251, 620.3175pt x 432.11438pt>
+File: images/fig77.jpg Graphic file (type jpg)
+<use images/fig77.jpg>
+Package pdftex.def Info: images/fig77.jpg  used on input line 1359.
+(pdftex.def)             Requested size: 172.5pt x 120.1604pt.
+
+LaTeX Warning: Reference `fig:fig78' on page 50 undefined on input line 1364.
+
+<images/fig78.jpg, id=252, 294.34969pt x 380.17032pt>
+File: images/fig78.jpg Graphic file (type jpg)
+<use images/fig78.jpg>
+Package pdftex.def Info: images/fig78.jpg  used on input line 1368.
+(pdftex.def)             Requested size: 172.5pt x 222.7961pt.
+[50 <./images/fig76.jpg> <./images/fig77.jpg>]
+
+LaTeX Warning: Reference `fig:fig79' on page 51 undefined on input line 1373.
+
+<images/fig79.jpg, id=256, 261.97874pt x 257.46187pt>
+File: images/fig79.jpg Graphic file (type jpg)
+<use images/fig79.jpg>
+Package pdftex.def Info: images/fig79.jpg  used on input line 1377.
+(pdftex.def)             Requested size: 172.5pt x 169.52856pt.
+[51 <./images/fig78.jpg> <./images/fig79.jpg>]
+
+LaTeX Warning: Reference `lst:ila_led_counter_final' on page 52 undefined on in
+put line 1398.
+
+[52]
+
+LaTeX Warning: Reference `fig:fig80' on page 53 undefined on input line 1458.
+
+<images/fig80.jpg, id=264, 453.19313pt x 238.64156pt>
+File: images/fig80.jpg Graphic file (type jpg)
+<use images/fig80.jpg>
+Package pdftex.def Info: images/fig80.jpg  used on input line 1462.
+(pdftex.def)             Requested size: 172.5pt x 90.83401pt.
+<images/fig81.jpg, id=265, 991.45406pt x 539.76656pt>
+File: images/fig81.jpg Graphic file (type jpg)
+<use images/fig81.jpg>
+Package pdftex.def Info: images/fig81.jpg  used on input line 1471.
+(pdftex.def)             Requested size: 172.5pt x 93.90874pt.
+[53 <./images/fig80.jpg>]
+
+LaTeX Warning: Reference `fig:fig82' on page 54 undefined on input line 1476.
+
+<images/fig82.jpg, id=269, 995.21812pt x 543.53062pt>
+File: images/fig82.jpg Graphic file (type jpg)
+<use images/fig82.jpg>
+Package pdftex.def Info: images/fig82.jpg  used on input line 1480.
+(pdftex.def)             Requested size: 172.5pt x 94.20699pt.
+
+LaTeX Warning: Reference `fig:fig83' on page 54 undefined on input line 1485.
+
+<images/fig83.jpg, id=270, 487.06969pt x 252.19218pt>
+File: images/fig83.jpg Graphic file (type jpg)
+<use images/fig83.jpg>
+Package pdftex.def Info: images/fig83.jpg  used on input line 1489.
+(pdftex.def)             Requested size: 172.5pt x 89.31528pt.
+[54 <./images/fig81.jpg> <./images/fig82.jpg> <./images/fig83.jpg>] [55]
+(./main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 16675 strings out of 467537
+ 318477 string characters out of 5423704
+ 1104215 words of memory out of 5000000
+ 45338 multiletter control sequences out of 15000+600000
+ 633738 words of font info for 62 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,10n,94p,821b,1913s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/tex
+live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2025
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2025/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2025/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr5.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr6.pfb><d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+<d:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive
+/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><d:/texlive/2025/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on main.pdf (55 pages, 5236825 bytes).
+PDF statistics:
+ 327 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 443 words of extra memory for PDF output out of 10000 (max. 10000000)
+
