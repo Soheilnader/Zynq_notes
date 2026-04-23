@@ -1,52 +1,48 @@
-# Building a 5-bit Counter Project with LEDs
+### Building a 5-bit Counter Project with LEDs
 
-In this project, we implement a 5-bit counter on the Programmable Logic (PL), since the Artemis Karia board has 5 available LEDs.
+In this project, we implement a 5-bit counter in the Programmable Logic (PL), because this is the number of LEDs available on the Artemis Karia board.
 
-## Creating the Project
+#### Creating the Project
 
-First, open **Vivado**. To create a new project, select **Create Project**. In the opened window, click **Next**.
+First, run Vivado. To create a new project, select **Create Project**, then click **Next**.
 
-![Creating a project]../../images/(fig1)
+![Creating a project](../../images/fig1.jpg)
 
-Next, specify the project **name** and **location**, then click **Next**.
+Next, specify the project name and location, then click **Next**.
 
-![Specifying the project name and location]../../images/(fig2)
+![Specifying the project name and location](../../images/fig2.jpg)
 
-In the **Project Type** section, select **RTL Project**, then click **Next** to continue to the **Default Part** section.
+In **Project Type**, select **RTL Project**, then click **Next**.
 
-![Selecting the project type]../../images/(fig3)
+![Selecting the project type](../../images/fig3.jpg)
 
-In this window, select the target hardware. To make it easier to find, you can set the filters as shown in the figure or directly search for the part model. Since this project uses the **Zynq7010**, the selected part is:
+In the **Default Part** section, select the target hardware. For this project, the selected part is `xc7z010clg400-2`.
 
-```text
-xc7z010clg400-2
-```
+![Selecting the hardware](../../images/fig4.jpg)
 
-![Selecting the hardware]../../images/(fig4)
+Review the settings and click **Finish**.
 
-Click **Next** again to apply the settings. After reviewing the displayed information, click **Finish** to complete project creation.
+![Completing the project creation steps](../../images/fig5.jpg)
 
-![Completing the project creation steps]../../images/(fig5)
+#### Adding the Code and Related Sources to the Project
 
-## Adding the Code and Related Sources to the Project
+After creating the project, enter the Vivado environment. To add HDL code, in the **Sources** section, click **Add Sources**.
 
-After creating the project, enter the Vivado environment. To add a Hardware Description Language (**HDL**) file, go to the **Sources** section and click **Add Sources**.
+![List of available sources](../../images/fig6.jpg)
 
-![List of available sources]../../images/(fig6)
+Enable **Add or create design sources** if needed, then click **Next**.
 
-In the opened window, enable the second option, **Add or create design sources**, if it is not already enabled. Then click **Next**.
+![Creating a new source](../../images/fig7.jpg)
 
-![Creating a new source]../../images/(fig7)
+Click **Create File**, choose **Verilog**, and specify a file name.
 
-To create a new source file, click **Create File**. In the opened window, choose the desired HDL language, such as **Verilog**, and specify a name for the source.
-
-![Specifying the source name and hardware description language]../../images/(fig8)
+![Specifying the source name and hardware description language](../../images/fig8.jpg)
 
 If the **Define Module** window appears, click **OK**.
 
-![Define Module window]../../images/(fig9)
+![Define Module window](../../images/fig9.jpg)
 
-A `.v` file now appears under **Design Sources**. Double-click it to edit the code. Use the following Verilog code to implement the 5-bit counter:
+A `.v` Verilog file will appear under **Design Sources**. Double-click it and enter the following code:
 
 ```verilog
 `timescale 1ns / 1ps
@@ -63,19 +59,19 @@ end
 endmodule
 ```
 
-Next, assign each signal in the Verilog code to the hardware pins. From the **Sources** section, click the **+** button again. This time, in the opened window, select **Add or create constraints**, then click **Next**.
+Now assign the Verilog signals to the hardware pins. In **Sources**, click the `+` button and choose **Add or create constraints**.
 
-![Creating the constraint file]../../images/(fig10)
+![Creating the constraint file](../../images/fig10.jpg)
 
-In the new window, click **Create File**, choose a name for the constraint file, then click **OK** and **Finish**.
+Click **Create File**, choose a name, then click **OK** and **Finish**.
 
-![Entering the constraint file name]../../images/(fig11)
+![Entering the constraint file name](../../images/fig11.jpg)
 
-A `.xdc` file will now appear in the project.
+A `.xdc` file will be created.
 
-![Displaying the list of required files]../../images/(fig12)
+![Displaying the list of required files](../../images/fig12.jpg)
 
-Double-click this file to edit it. In the following code, the port standard is set to **LVCMOS33**, and the `PACKAGE_PIN` parameter is used to assign FPGA pins to each signal:
+Double-click the file and enter:
 
 ```xdc
 set_property IOSTANDARD LVCMOS33 [get_ports clk]
@@ -97,56 +93,40 @@ set_property IOSTANDARD LVCMOS33 [get_ports {LED[4]}]
 set_property PACKAGE_PIN V17 [get_ports {LED[4]}]
 ```
 
-![Pin names]../../images/(fig13)
+![Pin names](../../images/fig13.jpg)
 
-Note that the **PL clock** is **50 MHz** and is connected to pin `U18`.
+The **PL clock** is **50 MHz** and connected to pin `U18`.
 
-## Downloading onto the Hardware
+#### Downloading onto the Hardware
 
-Now we load the design onto the device. To do this, the project must go through:
+To configure the device, the design must be synthesized, implemented, and converted into a bitstream.
 
-1. **Synthesis**
-2. **Implementation**
-3. **Bitstream generation**
-4. **Programming the device**
+Click **Run Synthesis**.
 
-First, click **Run Synthesis** and wait for synthesis to complete.
+![Running synthesis](../../images/fig14.jpg)
 
-![Running synthesis]../../images/(fig14)
+After synthesis completes, click **Run Implementation**.
 
-When the next window appears, select **Run Implementation** and click **OK**. Wait for implementation to finish.
+![Starting implementation after synthesis](../../images/fig15.jpg)
 
-![Starting implementation after synthesis]../../images/(fig15)
+Then click **Generate Bitstream**.
 
-After that, select **Generate Bitstream** and click **OK** to begin bitstream generation.
+![Generating the bitstream](../../images/fig16.jpg)
 
-![Generating the bitstream]../../images/(fig16)
+Connect the board through **JTAG**, power it on, and open **Hardware Manager** → **Open Target** → **Auto Connect**.
 
-Now connect the computer to the board’s **JTAG** port using the interface cable and power on the board. In the **Flow Navigator** on the left, under **PROGRAM AND DEBUG**, select **Open Hardware Manager**. Then click **Open Target** and choose **Auto Connect**.
+![Opening Hardware Manager and connecting to the target](../../images/fig17.jpg)
 
-![Opening Hardware Manager and connecting to the target]../../images/(fig17)
+Once the device is recognized, click **Program Device**.
 
-Once connected, the device should appear in Hardware Manager. To send the configuration to the board, click **Program Device**.
+![Recognized device in Hardware Manager](../../images/fig18.jpg)
 
-![Recognized device in Hardware Manager]../../images/(fig18)
+Then click **Program**.
 
-In the opened window, click **Program** to configure the FPGA.
+![Programming the device](../../images/fig19.jpg)
 
-![Programming the device]../../images/(fig19)
+The LEDs should now behave as a 5-bit binary counter.
 
-After programming, the LEDs on the board will turn on and off as a 5-bit binary counter.
+![5-bit binary counter output on the LEDs](../../images/fig20.jpg)
 
-![5-bit binary counter output on the LEDs]../../images/(fig20)
-
-## Summary
-
-This project demonstrates how to:
-
-- Create a new **Vivado RTL project**
-- Add a **Verilog** source file
-- Add an **XDC constraint file**
-- Assign FPGA pins for the clock and LEDs
-- Run **Synthesis**, **Implementation**, and **Bitstream Generation**
-- Program the FPGA through **Hardware Manager**
-
-The final result is a working **5-bit LED counter** on the Artemis Karia board.
+---
