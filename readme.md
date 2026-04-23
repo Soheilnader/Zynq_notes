@@ -41,41 +41,41 @@ In this project, we implement a 5-bit counter in the Programmable Logic (PL), be
 
 First, run Vivado. To create a new project, select **Create Project**, then click **Next**.
 
-![Creating a project](images/fig1.png)
+![Creating a project](images/fig1.jpg)
 
 Next, specify the project name and location, then click **Next**.
 
-![Specifying the project name and location](images/fig2.png)
+![Specifying the project name and location](images/fig2.jpg)
 
 In **Project Type**, select **RTL Project**, then click **Next**.
 
-![Selecting the project type](images/fig3.png)
+![Selecting the project type](images/fig3.jpg)
 
 In the **Default Part** section, select the target hardware. For this project, the selected part is `xc7z010clg400-2`.
 
-![Selecting the hardware](images/fig4.png)
+![Selecting the hardware](images/fig4.jpg)
 
 Review the settings and click **Finish**.
 
-![Completing the project creation steps](images/fig5.png)
+![Completing the project creation steps](images/fig5.jpg)
 
 #### Adding the Code and Related Sources to the Project
 
 After creating the project, enter the Vivado environment. To add HDL code, in the **Sources** section, click **Add Sources**.
 
-![List of available sources](images/fig6.png)
+![List of available sources](images/fig6.jpg)
 
 Enable **Add or create design sources** if needed, then click **Next**.
 
-![Creating a new source](images/fig7.png)
+![Creating a new source](images/fig7.jpg)
 
 Click **Create File**, choose **Verilog**, and specify a file name.
 
-![Specifying the source name and hardware description language](images/fig8.png)
+![Specifying the source name and hardware description language](images/fig8.jpg)
 
 If the **Define Module** window appears, click **OK**.
 
-![Define Module window](images/fig9.png)
+![Define Module window](images/fig9.jpg)
 
 A `.v` Verilog file will appear under **Design Sources**. Double-click it and enter the following code:
 
@@ -96,15 +96,15 @@ endmodule
 
 Now assign the Verilog signals to the hardware pins. In **Sources**, click the `+` button and choose **Add or create constraints**.
 
-![Creating the constraint file](images/fig10.png)
+![Creating the constraint file](images/fig10.jpg)
 
 Click **Create File**, choose a name, then click **OK** and **Finish**.
 
-![Entering the constraint file name](images/fig11.png)
+![Entering the constraint file name](images/fig11.jpg)
 
 A `.xdc` file will be created.
 
-![Displaying the list of required files](images/fig12.png)
+![Displaying the list of required files](images/fig12.jpg)
 
 Double-click the file and enter:
 
@@ -128,7 +128,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports {LED[4]}]
 set_property PACKAGE_PIN V17 [get_ports {LED[4]}]
 ```
 
-![Pin names](images/fig13.png)
+![Pin names](images/fig13.jpg)
 
 The **PL clock** is **50 MHz** and connected to pin `U18`.
 
@@ -138,31 +138,31 @@ To configure the device, the design must be synthesized, implemented, and conver
 
 Click **Run Synthesis**.
 
-![Running synthesis](images/fig14.png)
+![Running synthesis](images/fig14.jpg)
 
 After synthesis completes, click **Run Implementation**.
 
-![Starting implementation after synthesis](images/fig15.png)
+![Starting implementation after synthesis](images/fig15.jpg)
 
 Then click **Generate Bitstream**.
 
-![Generating the bitstream](images/fig16.png)
+![Generating the bitstream](images/fig16.jpg)
 
 Connect the board through **JTAG**, power it on, and open **Hardware Manager** → **Open Target** → **Auto Connect**.
 
-![Opening Hardware Manager and connecting to the target](images/fig17.png)
+![Opening Hardware Manager and connecting to the target](images/fig17.jpg)
 
 Once the device is recognized, click **Program Device**.
 
-![Recognized device in Hardware Manager](images/fig18.png)
+![Recognized device in Hardware Manager](images/fig18.jpg)
 
 Then click **Program**.
 
-![Programming the device](images/fig19.png)
+![Programming the device](images/fig19.jpg)
 
 The LEDs should now behave as a 5-bit binary counter.
 
-![5-bit binary counter output on the LEDs](images/fig20.png)
+![5-bit binary counter output on the LEDs](images/fig20.jpg)
 
 ---
 
@@ -170,73 +170,73 @@ The LEDs should now behave as a 5-bit binary counter.
 
 After creating the project, under **IP INTEGRATOR**, click **Create Block Design**.
 
-![Creating a new block design](images/fig26.png)
+![Creating a new block design](images/fig26.jpg)
 
 Set a name such as `design_1`, then click **OK**. Click the `+` button, search for **MicroBlaze**, and add it.
 
-![Adding MicroBlaze to the block design](images/fig27.png)
+![Adding MicroBlaze to the block design](images/fig27.jpg)
 
 Click **Run Block Automation**.
 
-![Running block automation for MicroBlaze](images/fig28.png)
+![Running block automation for MicroBlaze](images/fig28.jpg)
 
 Keep the default settings and choose **New External Port** for the clock.
 
-![Configuring block automation settings](images/fig29.png)
+![Configuring block automation settings](images/fig29.jpg)
 
 Vivado will generate the required system components.
 
-![Automatically generated MicroBlaze system components](images/fig30.png)
+![Automatically generated MicroBlaze system components](images/fig30.jpg)
 
 Run block automation again, and for reset choose **New External Port**. Since the reset signal is pulled up to 3.3V, choose **ACTIVE_LOW**.
 
-![Configuring the external reset port](images/fig31.png)
+![Configuring the external reset port](images/fig31.jpg)
 
 Validate the design using **Validate Design** or `F6`.
 
-![Validating the block design](images/fig32.png)
+![Validating the block design](images/fig32.jpg)
 
 #### Adding Custom Hardware
 
 To add custom hardware, go to **Tools** → **Create and Package New IP**.
 
-![Opening the Create and Package New IP tool](images/fig33.png)
+![Opening the Create and Package New IP tool](images/fig33.jpg)
 
 Click **Next**.
 
-![Starting the IP packaging process](images/fig34.png)
+![Starting the IP packaging process](images/fig34.jpg)
 
 Choose **Create a new AXI4 peripheral**.
 
-![Selecting AXI4 peripheral creation](images/fig35.png)
+![Selecting AXI4 peripheral creation](images/fig35.jpg)
 
 Set the IP name and properties. In this example, the name is `myip`.
 
-![Setting the custom IP name and properties](images/fig36.png)
+![Setting the custom IP name and properties](images/fig36.jpg)
 
 In **Add Interfaces**, keep the interface name `S00_AXI`, set interface type to **Lite**, mode to **Slave**, data width to 32 bits, and choose **4 registers**.
 
-![Configuring the AXI interface and registers](images/fig37.png)
+![Configuring the AXI interface and registers](images/fig37.jpg)
 
 Choose **Add IP to Repository** and click **Finish**.
 
-![Adding the custom IP to the repository](images/fig38.png)
+![Adding the custom IP to the repository](images/fig38.jpg)
 
 Add the IP to the block design by searching for `myip`.
 
-![Adding the custom IP to the block design](images/fig39.png)
+![Adding the custom IP to the block design](images/fig39.jpg)
 
 Right-click the IP and choose **Edit in IP Packager**.
 
-![Opening the custom IP in the IP Packager](images/fig40.png)
+![Opening the custom IP in the IP Packager](images/fig40.jpg)
 
 Click **OK**.
 
-![Confirming the IP Packager launch](images/fig41.png)
+![Confirming the IP Packager launch](images/fig41.jpg)
 
 Open `myip_v1_0_S00_AXI_Inst` and edit the generated template. Under `// Add user logic here`, add:
 
-![Opening the AXI module source file for modification](images/fig42.png)
+![Opening the AXI module source file for modification](images/fig42.jpg)
 
 ```verilog
 // Add user logic here
@@ -269,47 +269,47 @@ end
 
 Re-package the IP.
 
-![Re-packaging the custom IP after modification](images/fig42_1.png)
+![Re-packaging the custom IP after modification](images/fig42_1.jpg)
 
 Confirm closing the IP window.
 
-![Confirming closure of the custom IP Vivado window](images/fig42_2.png)
+![Confirming closure of the custom IP Vivado window](images/fig42_2.jpg)
 
 Back in the main Vivado window, click **Refresh IP Catalog**.
 
-![Refreshing the IP Catalog](images/fig43.png)
+![Refreshing the IP Catalog](images/fig43.jpg)
 
 In **IP Status**, select all IPs and click **Upgrade Selected**.
 
-![Upgrading the selected IPs](images/fig42_3.png)
+![Upgrading the selected IPs](images/fig42_3.jpg)
 
 If **Generate Output Products** appears, click **Skip**.
 
-![Skipping output product generation](images/fig42_4.png)
+![Skipping output product generation](images/fig42_4.jpg)
 
 Click **Run Connection Automation** and connect the IP clock to `Clk`.
 
-![Connecting the custom IP clock using automation](images/fig44.png)
+![Connecting the custom IP clock using automation](images/fig44.jpg)
 
 The completed block design should look like this:
 
-![Complete system block design including MicroBlaze and the custom IP](images/fig44_5.png)
+![Complete system block design including MicroBlaze and the custom IP](images/fig44_5.jpg)
 
 In **Address Editor**, you can see the automatically assigned address of the custom hardware.
 
-![Automatically assigned address for the custom hardware](images/fig45.png)
+![Automatically assigned address for the custom hardware](images/fig45.jpg)
 
 Validate the design again.
 
 Now assign top-level pins using a constraint file:
 
-![Opening the Add Sources window](images/fig46.png)
+![Opening the Add Sources window](images/fig46.jpg)
 
-![Creating the constraint file](images/fig10.png)
+![Creating the constraint file](images/fig10.jpg)
 
-![Entering the constraint file name](images/fig11.png)
+![Entering the constraint file name](images/fig11.jpg)
 
-![Displaying the list of required files](images/fig12.png)
+![Displaying the list of required files](images/fig12.jpg)
 
 ```xdc
 set_property PACKAGE_PIN U19 [get_ports reset_rtl_0]
@@ -321,53 +321,53 @@ set_property IOSTANDARD LVCMOS33 [get_ports Clk]
 
 Right-click `design_1.bd` and choose **Create HDL Wrapper**.
 
-![Creating an HDL wrapper for the block design](images/fig47.png)
+![Creating an HDL wrapper for the block design](images/fig47.jpg)
 
 Choose **Let Vivado manage wrapper and auto-update**.
 
-![Selecting automatic wrapper generation](images/fig48.png)
+![Selecting automatic wrapper generation](images/fig48.jpg)
 
 The wrapper will appear in the sources list.
 
-![Generated HDL wrapper for the block design](images/fig49.png)
+![Generated HDL wrapper for the block design](images/fig49.jpg)
 
 Run synthesis, implementation, and bitstream generation as before.
 
 Then go to **File** → **Export** → **Export Hardware**.
 
-![Opening the Export Hardware option](images/fig50.png)
+![Opening the Export Hardware option](images/fig50.jpg)
 
 Check **Include bitstream** and click **OK**.
 
-![Exporting hardware with the bitstream included](images/fig51.png)
+![Exporting hardware with the bitstream included](images/fig51.jpg)
 
 #### Program
 
 Launch SDK from Vivado.
 
-![Launching SDK from Vivado](images/fig52.png)
+![Launching SDK from Vivado](images/fig52.jpg)
 
 Create a new application project.
 
-![Creating a new application project in SDK](images/fig53.png)
+![Creating a new application project in SDK](images/fig53.jpg)
 
 Configure the project as shown and click **Next**.
 
-![Configuring the application project settings](images/fig54.png)
+![Configuring the application project settings](images/fig54.jpg)
 
 Select **Empty Application**.
 
-![Selecting an empty application template](images/fig55.png)
+![Selecting an empty application template](images/fig55.jpg)
 
 Create a new source file named `main.c`.
 
-![Creating a new source file in the project](images/fig56.png)
+![Creating a new source file in the project](images/fig56.jpg)
 
-![Creating the `main.c` source file](images/fig57.png)
+![Creating the `main.c` source file](images/fig57.jpg)
 
 To find memory-mapped addresses, open `xparameters.h`.
 
-![Contents of the `xparameters.h` header file](images/fig58.png)
+![Contents of the `xparameters.h` header file](images/fig58.jpg)
 
 Use the following example software:
 
@@ -405,7 +405,7 @@ Test cases:
 
 Build the project:
 
-![Building the application project in SDK](images/fig59.png)
+![Building the application project in SDK](images/fig59.jpg)
 
 There are two programming methods:
 
@@ -413,29 +413,29 @@ There are two programming methods:
 
 Program the hardware in Vivado, then in SDK choose **Debug As** → **Launch on Hardware (System Debugger)**.
 
-![Launching the software on hardware from SDK](images/fig66.png)
+![Launching the software on hardware from SDK](images/fig66.jpg)
 
 ##### Option 2: Using Only SDK
 
 In SDK, right-click the project and choose **Debug As** → **Debug Configurations**.
 
-![Opening the system debugger configuration in SDK](images/fig61.png)
+![Opening the system debugger configuration in SDK](images/fig61.jpg)
 
 Open **Xilinx C/C++ Application (System Debugger)**, configure the **Target Setup**, then click **Debug**.
 
-![Target setup options in the system debugger](images/fig62.png)
+![Target setup options in the system debugger](images/fig62.jpg)
 
 A warning may appear about the unused Processing System. It can be ignored in this case.
 
-![Warning message related to the unused Processing System](images/fig63.png)
+![Warning message related to the unused Processing System](images/fig63.jpg)
 
 Choose **Yes** to switch to the debug environment.
 
-![Switching to the debug environment](images/fig64.png)
+![Switching to the debug environment](images/fig64.jpg)
 
 After running the software, inspect `sum1` and `sum2` in the debugger.
 
-![Debug results showing correct software and hardware operation](images/fig65.png)
+![Debug results showing correct software and hardware operation](images/fig65.jpg)
 
 #### More Complex
 
@@ -547,7 +547,7 @@ Connect the port in the instantiated AXI module:
 
 After updating and repackaging the IP, the final block design should look like this:
 
-![Final block design of the counter-based system](images/fig67.png)
+![Final block design of the counter-based system](images/fig67.jpg)
 
 Use this constraint file:
 
@@ -638,25 +638,25 @@ In this example, we use 3 input signals so that each one turns on its correspond
 
 After adding MicroBlaze and connecting clock and reset, add **AXI GPIO** IP to the block design.
 
-![Adding AXI GPIO IPs to the block design](images/fig68.png)
+![Adding AXI GPIO IPs to the block design](images/fig68.jpg)
 
 Use two GPIO IPs: one input-only and one output-only.
 
 Configure one GPIO with **All Inputs**, width **3**, and disable dual channel. Configure the other with **All Outputs**.
 
-![Configuring AXI GPIO properties](images/fig69.png)
+![Configuring AXI GPIO properties](images/fig69.jpg)
 
 For each GPIO, expand the GPIO port and select **Make External**.
 
-![Making the GPIO ports external](images/fig70.png)
+![Making the GPIO ports external](images/fig70.jpg)
 
 Final block design:
 
-![Final block design for the MicroBlaze and GPIO system](images/fig71.png)
+![Final block design for the MicroBlaze and GPIO system](images/fig71.jpg)
 
 Assign constraints as follows:
 
-![Board pin connections for the input buttons](images/fig72.png)
+![Board pin connections for the input buttons](images/fig72.jpg)
 
 ```xdc
 set_property PACKAGE_PIN U19 [get_ports reset_rtl_0]
@@ -745,19 +745,19 @@ _To be completed._
 
 XSDB can be used to verify the hardware connection between the board and the computer. Run `xsdb.bat`.
 
-![Running the XSDB tool](images/fig21.png)
+![Running the XSDB tool](images/fig21.jpg)
 
 Then enter commands in the XSDB shell.
 
-![XSDB command window](images/fig22.png)
+![XSDB command window](images/fig22.jpg)
 
 Use `help` to view available commands.
 
-![Help command in XSDB](images/fig23.png)
+![Help command in XSDB](images/fig23.jpg)
 
 To communicate with the board over JTAG, use `connect`, then `targets`.
 
-![Connecting to the board and displaying available targets](images/fig24.png)
+![Connecting to the board and displaying available targets](images/fig24.jpg)
 
 Example target selection:
 
@@ -779,7 +779,7 @@ xsdb% mwr address value
 
 Example results:
 
-![Results of memory read and write operations in XSDB](images/fig25.png)
+![Results of memory read and write operations in XSDB](images/fig25.jpg)
 
 For example, address `0x00001000` may initially contain `0x00000000`. After writing `0xabcdef12`, reading again confirms the change.
 
@@ -823,27 +823,27 @@ endmodule
 
 Open **IP Catalog** and search for **ILA**.
 
-![Searching for the ILA IP in the Vivado IP Catalog](images/fig74.png)
+![Searching for the ILA IP in the Vivado IP Catalog](images/fig74.jpg)
 
 In **Customize IP**, choose **Native**, set number of probes to **3**, and choose a sample depth such as **1024**.
 
-![Configuring the ILA IP in Native mode](images/fig75.png)
+![Configuring the ILA IP in Native mode](images/fig75.jpg)
 
 Set probe widths to match `rst`, `cnt`, and `LED`.
 
-![Setting the widths of the ILA probes](images/fig76.png)
+![Setting the widths of the ILA probes](images/fig76.jpg)
 
 Confirm generation of the ILA IP.
 
-![Generating the customized ILA IP core](images/fig77.png)
+![Generating the customized ILA IP core](images/fig77.jpg)
 
 If **Generate Output Products** appears, click **Skip**.
 
-![Skipping output product generation for the ILA IP](images/fig78.png)
+![Skipping output product generation for the ILA IP](images/fig78.jpg)
 
 Open the instantiation template in `ila_0.veo`.
 
-![Opening the ILA instantiation template](images/fig79.png)
+![Opening the ILA instantiation template](images/fig79.jpg)
 
 Template:
 
@@ -923,19 +923,19 @@ set_property PACKAGE_PIN V17 [get_ports {LED[4]}]
 
 Program the FPGA:
 
-![Programming the FPGA with the design containing the ILA](images/fig80.png)
+![Programming the FPGA with the design containing the ILA](images/fig80.jpg)
 
 The ILA window opens automatically.
 
-![ILA window after programming the FPGA](images/fig81.png)
+![ILA window after programming the FPGA](images/fig81.jpg)
 
 Set trigger conditions, for example on the active-low reset signal.
 
-![Captured waveform in the ILA after the trigger condition is met](images/fig82.png)
+![Captured waveform in the ILA after the trigger condition is met](images/fig82.jpg)
 
 If using multiple trigger conditions, set **Trigger Condition** to **Global OR**.
 
-![Setting multiple trigger conditions using Global OR](images/fig83.png)
+![Setting multiple trigger conditions using Global OR](images/fig83.jpg)
 
 You can also capture waveforms immediately without setting any trigger condition by choosing **Run Trigger Immediate for the ILA core**.
 
@@ -958,7 +958,7 @@ int main() {
 
 ## Notes
 
-- Replace all image paths if your files are not named like `fig1.png`, `fig2.png`, etc.
+- Replace all image paths if your files are not named like `fig1.jpg`, `fig2.jpg`, etc.
 - Store all screenshots in an `images/` directory.
 - For GitHub, Markdown is much easier to maintain than LaTeX for tutorials like this.
 - You may want to split very long sections into separate markdown files later, such as:
