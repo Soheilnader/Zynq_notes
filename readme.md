@@ -27,9 +27,9 @@ This tutorial explains several practical Zynq and Vivado workflows, including:
 - XSDB usage
 - Native ILA debugging
 
-> Put all referenced images inside an `images/` folder in your repository, and update each image filename if needed.
+<!-- > Put all referenced images inside an `images/` folder in your repository, and update each image filename if needed.
 
----
+--- -->
 
 ## PL Only
 
@@ -953,16 +953,4 @@ int main() {
     return 0;
 }
 ```
-
----
-
-## Notes
-
-- Replace all image paths if your files are not named like `fig1.jpg`, `fig2.jpg`, etc.
-- Store all screenshots in an `images/` directory.
-- For GitHub, Markdown is much easier to maintain than LaTeX for tutorials like this.
-- You may want to split very long sections into separate markdown files later, such as:
-  - `pl-only.md`
-  - `microblaze.md`
-  - `debugging.md`
 
